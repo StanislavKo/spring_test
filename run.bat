@@ -1,0 +1,1 @@
+java -jar target/OsIndielemonWebBoot-1.3.3.RELEASE.war

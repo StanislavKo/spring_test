@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #AAA;
+	width: 1240px;
+	display: table-cell;
+}
+
+#header {
+	background-color: #DDD;
+	border-bottom: 1px solid #333;
+}
+
+#content {
+	float: left;
+	width: 1000px;
+	margin-left: 10px;
+	padding-top: 1em;
+}
+
+#login {
+	padding-top: 1em;
+	margin: 0 2em 0 1040px;
+}
+
+#footer {
+	clear: both;
+	background-color: #DDD;
+	padding-bottom: 1em;
+	border-top: 1px solid #333;
+	text-align: center;
+}
+
+#jstree {
+	width: 300px;
+}

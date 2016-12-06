@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/WEB-INF/jsp/template/baseLayout.jsp">
+		<put-attribute name="header" value="/WEB-INF/jsp/template/header.jsp" />
+		<put-attribute name="baseContent" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/template/footer.jsp" />
+	</definition>
+
+	<!-- <definition name="twoColumnslogin" template="/WEB-INF/jsp/template/twoColumns.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/welcome.jsp" />
+		<put-attribute name="side" value="/WEB-INF/jsp/login.jsp" />
+	</definition> -->
+
+	<definition name="welcome" extends="baseLayout">
+		<!-- <put-attribute name="baseContent" value="twoColumnslogin" /> -->
+		<put-attribute name="baseContent">
+			<definition template="/WEB-INF/jsp/template/twoColumns.jsp">
+				<put-attribute name="content" value="/WEB-INF/jsp/welcome.jsp" />
+				<put-attribute name="side" value="/WEB-INF/jsp/login.jsp" />
+			</definition>
+		</put-attribute>
+	</definition>
+
+	<definition name="resumes" extends="baseLayout">
+		<put-attribute name="baseContent" value="/WEB-INF/jsp/resumes.jsp" />
+	</definition>
+
+	<definition name="admin" extends="baseLayout">
+		<put-attribute name="baseContent">
+			<definition template="/WEB-INF/jsp/template/twoColumns.jsp">
+				<put-attribute name="content" value="/WEB-INF/jsp/resumes.jsp" />
+				<put-attribute name="side" value="/WEB-INF/jsp/newResume.jsp" />
+			</definition>
+		</put-attribute>
+	</definition>
+	
+	<definition name="rubrics/newResume" template="/WEB-INF/jsp/template_page/newResume.jsp">
+	</definition>
+
+</tiles-definitions>
