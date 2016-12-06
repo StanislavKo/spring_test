@@ -2,6 +2,7 @@
 
 Spring security, LDAP, tiles JSON/XML, ReactJS, i18n, repositories, RestController/Controller
 
+# configuration
 
 com.indielemon.logsystem.webboot.config.ContentResolverConfig
 
