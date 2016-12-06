@@ -4,7 +4,7 @@ Spring security, LDAP, tiles JSON/XML, ReactJS, i18n, repositories, RestControll
 
 configuration
 ------------
-![com.indielemon.logsystem.webboot.config.ContentResolverConfig](https://github.com/StanislavKo/spring_test/blob/master/src/main/java/com/indielemon/logsystem/webboot/config/ContentResolverConfig.java)
+[com.indielemon.logsystem.webboot.config.ContentResolverConfig](https://github.com/StanislavKo/spring_test/blob/master/src/main/java/com/indielemon/logsystem/webboot/config/ContentResolverConfig.java)
 
 com.indielemon.logsystem.webboot.config.ContentResolverConfig
 
