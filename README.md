@@ -1,6 +1,6 @@
 # spring_test
 
-Spring security, LDAP, tiles JSON/XML, ReactJS, i18n, repositories, RestController/Controller
+Spring security, LDAP, tiles JSON/XML, ReactJS, i18n, repositories/Hibernate, RestController/Controller
 
 configuration
 ------------
